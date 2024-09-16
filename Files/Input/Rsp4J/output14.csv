@@ -1,0 +1,21 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2024-06-05 15:52:05,2024-06-05 15:52:15,18.2775
+2024-06-05 15:52:10,2024-06-05 15:52:20,15.77
+2024-06-05 15:52:15,2024-06-05 15:52:25,13.934
+2024-06-05 15:52:20,2024-06-05 15:52:30,15.347999999999999
+2024-06-05 15:52:25,2024-06-05 15:52:35,1632
+2024-06-05 15:52:30,2024-06-05 15:52:40,15.406
+2024-06-05 15:52:35,2024-06-05 15:52:45,1521
+2024-06-05 15:52:40,2024-06-05 15:52:50,13.86
+2024-06-05 15:52:45,2024-06-05 15:52:55,16.299
+2024-06-05 15:52:50,2024-06-05 15:53,17.216
+2024-06-05 15:52:55,2024-06-05 15:53:05,14.67
+Exception in thread "Thread-0" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+	at relational.stream.RowStreamGenerator.generateDataAndAddToStream(RowStreamGenerator.java:96)
+	at relational.stream.RowStreamGenerator.lambda$startStreaming$0(RowStreamGenerator.java:61)
+	at java.base/java.util.HashMap$EntrySet.forEach(HashMap.java:1126)
+	at relational.stream.RowStreamGenerator.lambda$startStreaming$1(RowStreamGenerator.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)

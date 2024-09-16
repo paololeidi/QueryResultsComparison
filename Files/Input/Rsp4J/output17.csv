@@ -1,0 +1,43 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2024-06-05 15:52:05,2024-06-05 15:52:15,2,17.689999999999998
+1,17.79
+3,19.94
+2024-06-05 15:52:10,2024-06-05 15:52:20,2,16.475
+1,11.7
+3,17.543333333333333
+2024-06-05 15:52:15,2024-06-05 15:52:25,2,16.246666666666666
+3,15.583333333333334
+1,10.9625
+2024-06-05 15:52:20,2024-06-05 15:52:30,1,14.1825
+3,17.38
+2,14.87
+2024-06-05 15:52:25,2024-06-05 15:52:35,1,17.316666666666666
+3,16.7325
+2,13.813333333333334
+2024-06-05 15:52:30,2024-06-05 15:52:40,1,15.11
+3,14.916
+2,1775000000000003
+2024-06-05 15:52:35,2024-06-05 15:52:45,3,13.104
+2,218
+1,14.176666666666666
+2024-06-05 15:52:40,2024-06-05 15:52:50,3,11.379999999999999
+2,19.83
+1,15.33
+2024-06-05 15:52:45,2024-06-05 15:52:55,3,12.122499999999999
+2,2085
+1,178
+2024-06-05 15:52:50,2024-06-05 15:53,2,20.2175
+1,15.108
+3,15.75
+2024-06-05 15:52:55,2024-06-05 15:53:05,1,1401999999999999
+2,14.959999999999999
+3,15.905
+Exception in thread "Thread-0" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+	at relational.stream.RowStreamGenerator.generateDataAndAddToStream(RowStreamGenerator.java:96)
+	at relational.stream.RowStreamGenerator.lambda$startStreaming$0(RowStreamGenerator.java:61)
+	at java.base/java.util.HashMap$EntrySet.forEach(HashMap.java:1126)
+	at relational.stream.RowStreamGenerator.lambda$startStreaming$1(RowStreamGenerator.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
